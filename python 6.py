@@ -30,3 +30,9 @@ if is_citizen and age >=18:
 	
 else:
 	print('You are not eligible to vote')
+
+
+age = 19
+is_employed = False
+
+print(age or is_employed) #19
